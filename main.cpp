@@ -21,8 +21,12 @@ void sort(int arr[],int size)
 
 int main()
 {
-	int arr[] = {12,4,89.43,21,78};
-	int size = sizeof(arr)/sizeof(arr[0]);
-	sort(arr,size);
-	return 0;
+    int arr[] = {12,4,89.43,21,78};
+    int size = sizeof(arr)/sizeof(arr[0]);
+    sort(arr,size);
+    for(int i=0;i<=size;i++)
+    {
+        cout << arr[i];
+    }
+    return 0;
 }
